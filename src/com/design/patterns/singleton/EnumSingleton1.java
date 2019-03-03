@@ -16,7 +16,7 @@ public enum EnumSingleton1 {
         EnumSingleton1 instance = EnumSingleton1.getInstance();
         System.out.println(instance.name() + ":" + instance.ordinal());
         boolean b = instance.callService("");
-
+        System.out.println(b);
 
     }
 
